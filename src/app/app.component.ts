@@ -69,7 +69,7 @@ export class AppComponent implements AfterViewInit {
     this.lastPoint = newPoint;
   }
 
-  protected getAntoine(): void {
+  getAntoine(): void {
     alert('Antoine is downloading into your computer, please wait.');
   }
 }
